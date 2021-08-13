@@ -138,14 +138,3 @@ while action in ['1', '2', '3']:
             hh_ru = insert_in_db(parsed_vacancies, hh_ru)
         else:
             print('------Добавление вакансий не возможно. БД отсутствует------')
-
-# 2. Запись собранных вакансий в БД
-# hh_ru = data_to_new_db(parsed_vacancies)
-
-# 3. Поиск и вывод на экран вакансий с заработной платой больше введённой суммы
-# search_by_salary(hh_ru)
-
-# 4. Добавление в БД только новых вакансий
-# hh_ru = insert_in_db(parsed_vacancies, hh_ru)
-# for item in hh_ru.find({}, {'name': 1, '_id': 0}):
-    # pprint(item)
